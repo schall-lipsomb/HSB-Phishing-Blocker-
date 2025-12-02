@@ -1,0 +1,30 @@
+From: Support <support@paypal.example.com>
+To: victim@example.local
+Subject: URGENT: Verify your account now
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============6497031948440729943=="
+
+--===============6497031948440729943==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Please verify your account by visiting the link: http://malicious.example.com=
+/login
+
+--===============6497031948440729943==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+
+    <html><body>
+      <p>Please <a href=3D"http://malicious.example.com/login">click here</a>=
+ to verify your account.</p>
+      <p>Also visit <a href=3D"http://another.bad/link">www.paypal.com</a> fo=
+r more info.</p>
+      <p>Regards,<br/>Support Team</p>
+    </body></html>
+   =20
+
+--===============6497031948440729943==--
